@@ -1,0 +1,7 @@
+Objsimplify
+	input: material/models/fixed.perfect.dragon.100K.0.07.obj
+	output: test.obj
+	ratio: 0.03
+	useQEM: 1
+	trytimes: 3
+End

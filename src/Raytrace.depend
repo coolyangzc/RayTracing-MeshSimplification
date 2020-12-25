@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1435548203 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\vec3f.cpp
+	"Vec3f.h"
+	"common.h"
+	<cmath>
+
+1434775854 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\vec3f.h
+	<iostream>
+
+1436095031 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\main.cpp
+	"Raytracer.h"
+	<iostream>
+	<ctime>
+	<cmath>
+	"common.h"
+
+1434556965 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\common.h
+	<cmath>
+	<string>
+
+1434720356 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\bmp.cpp
+	"Bmp.h"
+	"common.h"
+	<fstream>
+	<cstdio>
+	<iostream>
+
+1434640650 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\bmp.h
+	<string>
+	"Vec3f.h"
+
+1435549321 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\object.cpp
+	"common.h"
+	"Object.h"
+	<cstdlib>
+
+1435549301 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\object.h
+	"Texture.h"
+	<fstream>
+
+1434906392 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\texture.h
+	"Vec3f.h"
+	"Bmp.h"
+
+1435586024 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\texture.cpp
+	"Texture.h"
+	"common.h"
+	<fstream>
+
+1436087759 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\raytracer.cpp
+	"Raytracer.h"
+	"common.h"
+	<ctime>
+	<cstdlib>
+
+1435567058 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\raytracer.h
+	"Bmp.h"
+	"Scene.h"
+	"Camera.h"
+	"Kdtree.h"
+	"SimpleObj.h"
+	"Objsimplifier.h"
+	<string>
+	<fstream>
+
+1434526884 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\scene.cpp
+	"Scene.h"
+	"common.h"
+
+1434526823 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\scene.h
+	"Object.h"
+	<vector>
+	<fstream>
+
+1435556741 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\camera.cpp
+	"Camera.h"
+	"common.h"
+
+1435556725 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\camera.h
+	"Vec3f.h"
+	<fstream>
+
+1432004435 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\common.cpp
+	"common.h"
+
+1434858002 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\simpleobj.h
+	"Object.h"
+	"Texture.h"
+	<iostream>
+	<string>
+	<vector>
+
+1436088131 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\simpleobj.cpp
+	"SimpleObj.h"
+	"common.h"
+	<cmath>
+	<cstring>
+
+1434532406 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\kdtree.h
+	"Object.h"
+	<vector>
+
+1436090129 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\kdtree.cpp
+	"Kdtree.h"
+	"common.h"
+	<cstdlib>
+	<algorithm>
+
+1434901019 d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\objsimplifier.h
+	"Vec3f.h"
+	<vector>
+	<fstream>
+	<algorithm>
+
+1434904346 source:d:\我的坚果铺子\tsinghua\大二下\计算机图形学基础\code\光线追踪\raytrace\objsimplifier.cpp
+	"Objsimplifier.h"
+	"common.h"
+	<cstring>
+

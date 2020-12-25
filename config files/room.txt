@@ -1,0 +1,130 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 0.5
+	UniformLum: 1
+	UniformObj: 0
+	ConfineRGB: 1
+	LightDisplay: 0
+	SpecularPow: 20
+	AntiAliasing: 1
+	AA_resample= 0.05
+	Kdtreeleafnum: 2
+	KdtreeSAH: 0
+	MaxDepth: 3
+end
+
+Camera
+	O: -10 0 2
+	D: 3 0 0
+	N: 0 0 1
+	Aperture_R: .2
+	Aperture_D: 5
+	Aperture_Q: 128 8
+	image_H: 1080
+	image_W: 1920
+	len_H: 2.25
+	len_W: 4.0
+end
+
+//Square
+	v: -7 4 4
+	   -7 -4 4
+	   -7 -4 -4
+	   -7 4 -4
+	vt: 1 1 0
+		0 1 0
+		0 0 0
+		1 0 0
+	diff: 0.6
+	refr: 0.7
+	bump_k: 5
+	bump_map: material/flower.bmp
+	color: 1 1 1
+end
+
+light
+	O: -2 0 4.5
+	R: 0.5
+	lum: 0.4
+	MC_Quality: 16 4
+end
+
+Sphere
+	O: -1 0 .5
+	R: .5
+	color: 1 0 1
+	
+	diff: .8
+	spec: 1
+	refl: .2
+	//refr: 1
+end
+
+Sphere
+	O: -3 1 1
+	R: 1
+	color: 0 0 0
+	
+	diff: 0.2
+	spec: 1
+	//refl: .5
+	refr: .8
+	rindex: 1.8
+end
+
+Sphere
+	O: -5 -1.2 .8
+	R: .8
+	color: 1 1 1
+	
+	diff: 0.5
+	spec: 1
+	refl: .5
+	//refr: .8
+	//rindex: 1.8
+end
+
+Square
+	v: 0 2 0
+	   0 -2 0
+	   -10 -2 0
+	   -10 2 0
+	diff: 1
+	color: 1 1 1
+End
+
+//Square
+	v: 0 2 4
+	   0 -2 4
+	   -10 -2 4
+	   -10 2 4
+	diff: 1
+	color: 1 1 1
+End
+
+Square
+	v: 0 -2 0
+	   0 -2 4
+	   -10 -2 4
+	   -10 -2 0
+	diff: 1
+	color: 0 1 0
+End
+
+Square
+	v: 0 2 0
+	   0 2 4
+	   -10 2 4
+	   -10 2 0
+	diff: 1
+	color: 1 0 0
+End
+
+Square
+	v: 0 2 0
+	   0 -2 0
+	   0 -2 4
+	   0 2 4
+	diff: 1
+	color: 0 1 1
+End

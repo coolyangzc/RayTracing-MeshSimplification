@@ -1,0 +1,41 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	SpecularPow: 20
+	AntiAliasing: 4
+	AA_resample= 0.05
+	Kdtreeleafnum: 3
+	SmoothNormal: 0
+	KdtreeSAH: 0
+	MaxDepth: 2
+end
+
+Light
+	O: 0 0 -5
+	Lum: 1
+End
+
+Obj
+	scale: 5
+	place: 0 0 0
+	color: 1 1 0
+	diff: 0.9
+	spec: 1
+	file: material/models/fixed.perfect.dragon.100K.0.07.obj
+	//file: Dragon0.1.QEM.obj
+	//file: test.obj
+End
+
+Camera
+	O: 0 0 -10
+	D: 0 0 5
+	N: 0 2 0
+	image_H: 1080
+	image_W: 1920 //
+	len_H: 4.5
+	len_W: 8
+End
+

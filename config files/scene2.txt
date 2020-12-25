@@ -1,0 +1,34 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	SpecularPow: 20
+	AntiAliasing: 4
+end
+
+Light
+	O: 0 10 -10
+	lum: 1
+End
+
+Camera
+	O: 10 10 -10
+	D: -5 -5 5
+	N: -1 1 1
+	image_H: 768
+	image_W: 1024
+	len_H: 6
+	len_W: 8
+End
+
+Obj
+	scale: .7
+	place: 0 0 0
+	file: material/obj/space_frigate_6/space_frigate_6.obj
+	//bmp: material/space_frigate_6_color.bmp
+	//color: 1 1 1
+	diff: 1
+	spec: 1
+End

@@ -1,0 +1,37 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	SpecularPow: 20
+	SmoothNormal: 1
+	AntiAliasing: 1
+	AA_Resample: 0.05
+	kdtreeleafnum: 2
+	kdtreeSAH: 1
+	Maxdepth: 2
+end
+
+Light
+	O: 0 3 6
+	Lum: 1
+	R: 0.1
+	MC_Quality: 4 4
+End
+
+Camera
+	O: 5 0 4
+	D: -2 0 -1.6
+	N: -1.6 0 2
+	image_H: 540
+	image_W: 960
+	len_H: 2.7
+	len_W: 4.8
+End
+
+obj
+	spec: .8
+	diff: 1
+	file: material/obj/Test/Test.obj
+end

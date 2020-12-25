@@ -1,0 +1,78 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	SpecularPow: 20
+	SmoothNormal: 0
+	AntiAliasing: 1
+	AA_Resample: 0.1
+	Maxdepth: 1
+end
+
+Triangle
+	v:	100 0 100
+		100 0 -100
+		-100 0 100
+	vt: 100 0 100
+		100 0 -100
+		-100 0 100
+	bmp: material/floor.bmp
+	diff: .5
+	refl: .5
+	color: 1 1 1
+end
+
+Triangle
+	v:	-100 0 -100
+		100 0 -100
+		-100 0 100
+	vt: -100 0 -100
+		100 0 -100
+		-100 0 100
+	bmp: material/floor.bmp
+	diff: .5
+	refl: .5
+	color: 1 1 1
+end
+
+//Sphere
+	O: 0 1 0
+	R: 1
+	color: 0 1 1
+	diff: 1
+	spec: 1
+	refl: .05
+end
+
+//Sphere
+    O: 2 .5 0
+	R: .5
+	spec: 1
+	color: 1 0 0
+end
+
+Light
+	O: 0 3 6
+	Lum: 1
+End
+
+Camera
+	O: -5 5 10
+	D: 2.5 -2.5 -5
+	N: 0 1 -1
+	//O: 0 3 6
+	//D: 0 -2 -4
+	//N: 0 2 -1
+	image_H: 270
+	image_W: 480
+	len_H: 2.7
+	len_W: 4.8
+End
+
+obj
+	scale: .05
+	place: 0 0 2
+	file: material/obj/Uniform2/Uniform2.obj
+end

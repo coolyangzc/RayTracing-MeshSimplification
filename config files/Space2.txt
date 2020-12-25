@@ -1,0 +1,46 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: .5
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	LightDisplay: 1
+	SpecularPow: 20
+	AntiAliasing: 1
+	AA_resample= 0.05
+	Kdtreeleafnum: 2
+	KdtreeSAH: 1
+	MaxDepth: 3
+end
+
+Light
+	O: 0 0 6
+	R: 1
+	lum: 0.5
+	MC_Quality: 0 0
+end
+
+Obj
+	scale: 2
+	place: 2 0 -4.4
+	diff: 1
+	spec: 0
+	refl: 0
+	//color: 1 1 0
+	order: 0 1 2
+	//rotate: 2 140
+	bump_k: 3
+	file: material/obj/Sample_Ship_OBJ/Sample_Ship.obj
+	
+End
+
+Camera
+	O: 5 0 5
+	D: -4.95 0 -4.95
+	N: -2 0 2
+	image_H: 108
+	image_W: 192 //
+	len_H: 2.7
+	len_W: 4.8
+End
+

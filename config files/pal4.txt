@@ -1,0 +1,55 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	SpecularPow: 20
+	SmoothNormal: 1
+	AntiAliasing: 4
+	AA_Resample: 0.05
+	kdtreeleafnum: 2
+	kdtreeSAH: 1
+	Maxdepth: 2
+end
+
+Square
+	v: 20 20 0
+	   20 -20 0
+	   -20 -20 0
+	   -20 20 0
+	vt: 1 1 0
+	    1 0 0
+	    0 0 0
+	    0 1 0
+	bmp: material/floor.bmp
+	diff: .8
+	spec: .8
+	refl: .5
+End
+
+Light
+	O: 1 3 6
+	Lum: 1
+	R: 0.05
+	MC_Quality: 16 4
+End
+
+Camera
+	O: 5 0 4
+	D: -2 0 -1.6
+	N: -1.6 0 2
+	image_H: 1080
+	image_W: 1920
+	len_H: 2.7
+	len_W: 4.8
+End
+
+obj
+	order: 0 2 1
+	rotate: 2 -90
+	scale: 0.045
+	place: 0 13 0
+	spec: 0
+	file: material/obj/pal4/pal4.obj
+end

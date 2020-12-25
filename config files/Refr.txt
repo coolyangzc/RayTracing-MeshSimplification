@@ -1,0 +1,89 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	LightDisplay: 1
+	SpecularPow: 20
+	AntiAliasing: 4
+	AA_resample= 0.1
+	Kdtreeleafnum: 2
+	KdtreeSAH: 0
+	MaxDepth: 5
+end
+
+Square
+	v: 10 10 0
+	   10 -10 0
+	   -10 -10 0
+	   -10 10 0
+	vt: 1 1 0
+	    1 0 0
+	    0 0 0
+	    0 1 0
+	bmp: material/floor.bmp
+	diff: .8
+	spec: 1
+	refl: .5
+End
+
+Light
+	O: 0 3 3
+	R: .1
+	lum: 0.5
+	MC_Quality: 4 4
+end
+
+Sphere
+	O: 0 0 .5
+	R: .5
+	Color: 1 1 0
+	diff: 1
+	spec: 1
+	//refr: .5
+	//rindex: 1.5
+end
+
+Sphere
+	O: -2 1 1
+	R: 1
+	Color: 0 0 1
+	diff: .6
+	spec: 1
+	refl: .5
+end
+
+Sphere
+	O: 1 -1 1
+	R: 1
+	spec: 1
+	diff: .2
+	refr: .8
+	rindex: 1.5
+	Color: 0 1 0
+end
+
+//Obj
+	scale: .1
+	place: 0 -2 2
+	//color: 1 1 1
+	diff: 0.8
+	spec: 1
+	refl: .2
+	order: 2 0 1
+	rotate: 2 180
+	file: material/obj/space_frigate_6/space_frigate_6.obj
+	
+End
+
+Camera
+	O: 5 0 5
+	D: -2.2 0 -2.2
+	N: -2 0 2
+	image_H: 400
+	image_W: 720 //
+	len_H: 2.7
+	len_W: 4.8
+End
+

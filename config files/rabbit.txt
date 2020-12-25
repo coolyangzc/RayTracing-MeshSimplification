@@ -1,0 +1,60 @@
+parameter
+	Background: 0 0 0
+	AmbientLum: 1
+	UniformLum: 1
+	UniformObj: 1
+	ConfineRGB: 1
+	SpecularPow: 20
+	AntiAliasing: 1
+	AA_Resample: 0.05
+	KdtreeSAH: 0
+	SmoothNormal: 1
+	Kdtreeleafnum: 2
+	Maxdepth: 20
+end
+
+Square
+	v: 0 18 13
+	   0 -18 13
+	   0 -18 -13
+	   0 18 -13
+	vt: 1 1 0
+	    0 1 0
+	    0 0 0
+	    1 0 0
+	bmp: material/sea.bmp
+	diff: 1
+	//spec: 1
+	//refl: .5
+End
+
+Light
+	O: 5 0 0 
+	R: .1
+	lum: 1
+	MC_Quality: 0 0
+end
+
+Camera
+	O: 10 0 0
+	D: -1.5 0 0
+	N: 0 0 1
+	image_H: 270
+	image_W: 480 //
+	len_H: 2.7
+	len_W: 4.8
+End
+
+Obj
+	scale: 3
+	color: 1 1 1
+	order: 2 0 1
+	place: 2 0 0
+	//file: material/models/test.obj
+	file: test.obj
+	diff: 0.5
+	refr: .5
+	rindex: 1.2
+	//rindex: 1
+
+End
