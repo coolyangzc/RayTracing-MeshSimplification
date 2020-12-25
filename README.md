@@ -13,4 +13,4 @@ Introduction: [Chinese](https://github.com/coolyangzc/RayTracing-MeshSimplificat
 
 ![](https://raw.githubusercontent.com/coolyangzc/RayTracing-MeshSimplification/main/results/sample_images/test7D2.jpg)
 
-![](https://raw.githubusercontent.com/coolyangzc/RayTracing-MeshSimplification/main/results/sample_images/test9A_0.2_5.jpg)
+![](https://raw.githubusercontent.com/coolyangzc/RayTracing-MeshSimplification/main/results/sample_images/test9A_0dot2_5.jpg)
