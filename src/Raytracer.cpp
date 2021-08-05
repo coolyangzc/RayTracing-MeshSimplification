@@ -139,11 +139,13 @@ void Raytracer::Render()
                     camera.pic[i][j] += Res = Raytracing(CamO, (focus-CamO).Normalize(), 0);;
                     if (dist(Res, Real) > 0.05) flag = 0;
                 }
+				// The results are similar
                 if (flag)
                 {
                     camera.pic[i][j] /= (camera.Aperature_Limit+1);
                     continue;
                 }
+				// Require more sampling (the results are not similar)
                 rep(k, camera.Aperature_Q - camera.Aperature_Limit)
                 {
                     CamO = Cam.RandomPoint();

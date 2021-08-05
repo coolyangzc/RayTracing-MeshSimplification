@@ -43,6 +43,7 @@ void Camera::Input(std::ifstream& fin)
         else if (same(str, "End")) break;
     }
 
+	//[0..W-1], [0..H-1]
     Wdiv2 = (double)(W-1)/2;
     Hdiv2 = (double)(H-1)/2;
 
@@ -57,6 +58,7 @@ void Camera::Input(std::ifstream& fin)
         pic[i] = new Color[W];
 }
 
+// Return direction vector from the camera to (x, y) point in canvas.
 Vec3f Camera::Ray_emit(const double& x, const double& y) const
 {
     return (D + Dx * (x-Wdiv2) + Dy * (y-Hdiv2)).Normalize();
